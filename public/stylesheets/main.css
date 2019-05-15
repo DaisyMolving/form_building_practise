@@ -1,0 +1,102 @@
+/* resets, variables, mixins, utility classes */
+html, body {
+  background-image: url("../../app/assets/dinosaur-background.jpg");
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  color: #3f3f3f; }
+
+/* layout, such as container and grid systems */
+.content {
+  padding: 20px; }
+
+.content-title {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: fit-content; }
+
+.content-subtitle {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: fit-content; }
+
+header {
+  background-color: #47644B;
+  color: #FFFFFF;
+  padding: 20px; }
+
+fieldset {
+  background-color: #FFFFFF;
+  border: solid #47644B 2px;
+  border-radius: 5px;
+  margin: 10px 50px 20px 50px;
+  padding: 0px 20px 10px 20px; }
+
+select {
+  background-color: #FFFFFF;
+  border: solid #3F3F3F 1px;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 210px; }
+
+.radio-options {
+  margin-top: 5px; }
+
+textarea {
+  border: solid #3F3F3F 1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 250px;
+  padding: 10px;
+  width: 100%; }
+
+.textbox-wrapper {
+  padding: 0px; }
+
+.input-group {
+  margin-bottom: 20px; }
+
+.text-input {
+  border: solid #3F3F3F 1px;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 200px; }
+
+.helper-text {
+  color: #979797;
+  font-size: 12px; }
+
+.button {
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 15px 15px 0px 0px;
+  padding: 10px;
+  width: 200px; }
+
+.alert-button {
+  background-color: #FFFFFF;
+  border: solid #3F78FF 1px;
+  color: #3F78FF; }
+
+.action-button {
+  background-color: #3F78FF;
+  border: solid #3F78FF 1px;
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=main.css.map */
