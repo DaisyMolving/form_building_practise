@@ -1,3 +1,9 @@
+header {
+  background-color: $dino-green;
+  color: $white;
+  padding: 20px;
+}
+
 .content {
   padding: 20px;
 }
@@ -5,101 +11,17 @@
 .content-title {
   background-color: $white;
   border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: fit-content;
+}
+
+.content-title__heading {
   font-size: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  text-align: center;
-  width: fit-content;
 }
 
-.content-subtitle {
-  background-color: $white;
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  text-align: center;
-  width: fit-content;
-}
-
-header {
-  background-color: $dino-green;
-  color: $white;
-  padding: 20px;
-}
-
-fieldset {
-  background-color: $white;
-  border: solid $dino-green 2px;
-  border-radius: 5px;
-  margin: 10px 50px 20px 50px;
-  padding: 0px 20px 10px 20px;
-}
-
-select {
-  background-color: $white;
-  border: solid $near-black 1px;
-  border-radius: 5px;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 210px;
-}
-
-.radio-options {
-  margin-top: 5px;
-}
-
-textarea {
-  border: solid $near-black 1px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  height: 250px;
-  padding: 10px;
-  width: 100%;
-}
-
-.textbox-wrapper {
-  padding: 0px;
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.text-input {
-  border: solid $near-black 1px;
-  border-radius: 5px;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 200px;
-}
-
-.helper-text {
-  color: $dark-grey;
-  font-size: 12px;
-}
-
-.button {
-  border-radius: 5px;
-  font-size: 14px;
-  margin: 15px 15px 0px 0px;
-  padding: 10px;
-  width: 200px;
-}
-
-.alert-button {
-  background-color: $white;
-  border: solid $mid-blue 1px;
-  color: $mid-blue;
-}
-
-.action-button {
-  background-color: $mid-blue;
-  border: solid $mid-blue 1px;
-  color: $white;
+.content-title__subheading {
+  font-size: 28px;
 }
