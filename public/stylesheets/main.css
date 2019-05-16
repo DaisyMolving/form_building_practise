@@ -53,17 +53,11 @@ fieldset {
   margin: 10px 50px 20px 50px;
   padding: 0px 20px 10px 20px; }
 
-select {
-  background-color: #FFFFFF;
-  border: solid #3F3F3F 1px;
-  border-radius: 5px;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 210px; }
-
 .radio-options {
   margin-top: 5px; }
+
+.radio-option {
+  display: block; }
 
 textarea {
   border: solid #3F3F3F 1px;
@@ -85,6 +79,7 @@ textarea {
 .text-input {
   border: solid #3F3F3F 1px;
   border-radius: 5px;
+  display: block;
   font-size: 0.875em;
   height: 35px;
   margin-top: 5px;
@@ -93,8 +88,11 @@ textarea {
 
 .helper-text {
   color: #979797;
-  display: inline-block;
+  display: block;
   font-size: 0.875em;
   margin: 5px 0; }
+
+.range-options {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
