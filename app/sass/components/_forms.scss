@@ -1,0 +1,54 @@
+fieldset {
+  background-color: $white;
+  border: solid $dino-green 2px;
+  border-radius: 5px;
+  margin: 10px 50px 20px 50px;
+  padding: 0px 20px 10px 20px;
+}
+
+select {
+  background-color: $white;
+  border: solid $near-black 1px;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 210px;
+}
+
+.radio-options {
+  margin-top: 5px;
+}
+
+textarea {
+  border: solid $near-black 1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 250px;
+  padding: 10px;
+  width: 100%;
+}
+
+.textbox-wrapper {
+  padding: 0px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.text-input {
+  border: solid $near-black 1px;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 5px;
+  padding-left: 10px;
+  width: 200px;
+}
+
+.helper-text {
+  color: $dark-grey;
+  font-size: 12px;
+}
