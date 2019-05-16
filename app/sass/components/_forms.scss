@@ -2,8 +2,13 @@ fieldset {
   background-color: $white;
   border: solid $dino-green 2px;
   border-radius: 5px;
-  margin: 10px 50px 20px 50px;
-  padding: 0px 20px 10px 20px;
+  margin: 40px 0;
+  padding: 10px 30px 20px 30px;
+}
+
+.text-input__form {
+  display: block;
+  margin-top: 5px;
 }
 
 .radio-options {
@@ -34,16 +39,15 @@ textarea {
   margin-bottom: 20px;
 }
 
-.text-input {
-  border: solid $near-black 1px;
-  border-radius: 5px;
-  display: block;
-  font-size: 0.875em;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 200px;
-}
+
+
+
+
+
+
+
+
+
 
 .helper-text {
   color: $dark-grey;

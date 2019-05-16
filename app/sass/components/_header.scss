@@ -1,0 +1,15 @@
+header {
+  background-color: $dino-green;
+  color: $white;
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  padding: 10px 0;
+}
+
+.search {
+  grid-column-start: 2;
+}
+
+.text-input__search {
+  display: inline;
+}

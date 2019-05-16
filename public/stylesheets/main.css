@@ -1,34 +1,26 @@
 html, body {
   background-image: url("../../app/assets/dinosaur-background.jpg");
   background-repeat: repeat;
-  margin: 0;
-  padding: 0;
+  color: #3F3F3F;
   font-family: helvetica;
   font-size: 16px;
-  color: #3F3F3F; }
+  margin: 0;
+  padding: 0; }
 
-header {
-  background-color: #47644B;
-  color: #FFFFFF;
-  padding: 20px; }
+.text-input {
+  border: solid #3F3F3F 1px;
+  border-radius: 5px;
+  font-size: 0.875em;
+  height: 35px;
+  padding-left: 10px;
+  width: 200px; }
+
+.main {
+  display: grid;
+  grid-template-columns: 10% auto 10%; }
 
 .content {
-  padding: 20px; }
-
-.content-title {
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  text-align: center;
-  width: fit-content; }
-
-.content-title__heading {
-  font-size: 2.5em; }
-
-.content-title__subheading {
-  font-size: 1.75em; }
+  grid-column-start: 2; }
 
 .button {
   border: solid #3F78FF 1px;
@@ -50,8 +42,12 @@ fieldset {
   background-color: #FFFFFF;
   border: solid #47644B 2px;
   border-radius: 5px;
-  margin: 10px 50px 20px 50px;
-  padding: 0px 20px 10px 20px; }
+  margin: 40px 0;
+  padding: 10px 30px 20px 30px; }
+
+.text-input__form {
+  display: block;
+  margin-top: 5px; }
 
 .radio-options {
   margin-top: 5px; }
@@ -76,16 +72,6 @@ textarea {
 .input-group {
   margin-bottom: 20px; }
 
-.text-input {
-  border: solid #3F3F3F 1px;
-  border-radius: 5px;
-  display: block;
-  font-size: 0.875em;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 200px; }
-
 .helper-text {
   color: #979797;
   display: block;
@@ -94,5 +80,33 @@ textarea {
 
 .range-options {
   display: block; }
+
+header {
+  background-color: #47644B;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  padding: 10px 0; }
+
+.search {
+  grid-column-start: 2; }
+
+.text-input__search {
+  display: inline; }
+
+.content-title {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: fit-content; }
+
+.content-title__heading {
+  font-size: 2.5em; }
+
+.content-title__subheading {
+  font-size: 1.75em; }
 
 /*# sourceMappingURL=main.css.map */
