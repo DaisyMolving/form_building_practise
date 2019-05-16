@@ -52,5 +52,7 @@ textarea {
 
 .helper-text {
   color: $dark-grey;
+  display: inline-block;
   font-size: 0.875em;
+  margin: 5px 0;
 }
