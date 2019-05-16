@@ -7,138 +7,210 @@
   </head>
   <body>
     <header>
-      <label>Dinosearch: </label>
-      <input class="text-input" placeholder="Triceratops" type="search">
+      <div class="search">
+        <label>Dinosearch: </label>
+        <input class="text-input text-input__search" placeholder="Triceratops" type="search">
+      </div>
     </header>
-    <section class="content">
-      <h1 class="content-title">Dinoclub</h1>
-      <h2 class="content-subtitle">Sign up to our secret club!</h2>
+    <section class="main">
+      <section class="content">
 
-      <form action="/preview" method="POST">
+        <h1 class="content-title content-title__heading">Dinoclub</h1>
+        <h2 class="content-title content-title__subheading">Sign up to our secret club!</h2>
 
-        <fieldset name="personal-details">
-          <h3>Personal Details</h3>
-          <div class="input-group">
-            <label>First Name</label></br>
-            <input class="text-input" placeholder="Ann" type="text"></br>
-          </div>
-          <div class="input-group">
-            <label>Last Name</label></br>
-            <input class="text-input" placeholder="Onymous" type="text"></br>
-          </div>
-          <div class="input-group">
-            <label>Cool Nickname</label></br>
-            <input class="text-input" placeholder="Anonosaur" type="text"></br>
-          </div>
-          <div class="input-group">
-            <label>Date of Birth</label></br>
-            <input class="text-input" type="date"></br>
-          </div>
-          <div class="input-group">
-            <label>Contact Telephone Number</label></br>
-            <input class="text-input" placeholder="123456789" type="tel">
-          </div>
-        </fieldset>
+        <form action="/preview" method="POST">
 
-        <fieldset name="account-details">
-          <h3>Account Details</h3>
-          <div class="input-group">
-            <label>Email</label></br>
-            <input class="text-input" placeholder="ann.onymous@coolmail.com" type="email"></br>
-          </div>
-          <div class="input-group">
-            <label>Password</label></br>
-            <label class="helper-text">Minimum 10 Characters</label></br>
-            <input class="text-input" type="password"></br>
-          </div>
-          <div class="input-group">
-            <label>Verify Password</label></br>
-            <input class="text-input" type="password"></br>
-          </div>
-        </fieldset>
+          <fieldset name="personal-details">
 
-        <fieldset name="logistics">
-          <h3>Logistics</h3>
-          <div class="input-group">
-            <label>What region do you live in?</label></br>
-            <select>
-              <option value="">Select:</option>
-              <option value="NorthernAmerica">Northern America</option>
-              <option value="MiddleAmerica">Middle America</option>
-              <option value="CentralAmerica">Central America</option>
-              <option value="Carribean">Carribean</option>
-              <option value="Northern SouthAmerica">Northern South America</option>
-              <option value="Western SouthAmerica">Western South America</option>
-              <option value="Eastern SouthAmerica">Eastern South America</option>
-              <option value="Southern SouthAmerica">Southern South America</option>
-              <option value="NorthernEurope">Northern Europe</option>
-              <option value="WesternEurope">Western Europe</option>
-              <option value="CentralEurope">Central Europe</option>
-              <option value="EasternEurope">Eastern Europe</option>
-              <option value="SouthernEurope">Southern Europe</option>
-              <option value="South EasternEurope">South Eastern Europe</option>
-              <option value="NorthernAfrica">Northern Africa</option>
-              <option value="WesternAfrica">Western Africa</option>
-              <option value="EasternAfrica">Eastern Africa</option>
-              <option value="CentralAfrica">Central Africa</option>
-              <option value="SouthernAfrica">Southern Africa</option>
-              <option value="NorthernAsia">Northern Asia</option>
-              <option value="Western Asia/MiddleEast">Western Asia/Middle East</option>
-              <option value="CentralAsia">Central Asia</option>
-              <option value="EasternAsia">Eastern Asia</option>
-              <option value="SouthernAsia">Southern Asia</option>
-              <option value="South EastAsia">South East Asia</option>
-              <option value="Oceania/Australasia/SouthPacific">Oceania/Australasia/South Pacific</option>
-            </select></br>
-          </div>
-          <div class="input-group">
-            <label>What time suits you for club meetings about dinosaurs?</label></br>
-            <input class="text-input" value="00:00" type="time"></br>
-          </div>
-        </fieldset>
+            <h3>Personal Details</h3>
 
-        <fieldset name="entry-test">
-          <h3>Dinoclub Entry Test</h3>
-          <div class="input-group">
-            <label>What was the largest Dinosaur?</label><br>
-            <div class="radio-options">
-              <input type="radio" name="entry_question" value="incorrect" checked>Tyrannosaurus Rex</br>
-              <input type="radio" name="entry_question" value="incorrect">Stegosaurus</br>
-              <input type="radio" name="entry_question" value="correct">Brachiosaurus</br>
-              <input type="radio" name="entry_question" value="incorrect">Diplodocus</br>
+            <div class="input-group">
+              <label>First Name</label>
+              <input class="text-input text-input__form" placeholder="Ann" type="text">
             </div>
-          </div>
-          <div class="input-group">
-            <label>Tell us why you would be a great Dinoclub member:</label></br>
-            <label class="helper-text">Limit 1000 Characters</label></br>
-            <div class="textbox-wrapper">
-              <textarea maxlength="1000" placeholder="Write your message here:"></textarea></br>
-            </div>
-          </div>
-          <div class="input-group">
-            <label>What is your lucky number?</label></br><input class="text-input" type="number"></br>
-          </div>
-          <div class="input-group">
-            <label>Link to Your Website</label></br>
-            <input class="text-input" type="url"></br>
-          </div>
-          <div class="input-group">
-            <label>How cool do you think Dinosaurs are?</label></br>
-            <label>Totally drool</label><input type="range"><label>Totally cool</label></br>
-          </div>
-        </fieldset>
 
-        <fieldset name="agree-and-submit">
-          <h3>Agree and Apply</h3>
-          <div class="input-group">
-            <input type="checkbox"><label>I agree to the Dinoclub's secret rules about secrets</label></br>
-          </div>
-          <div class="input-group">
-            <input class="alert-button button" id="pterodactyl" value="What's that in the sky?!" type="button">
-            <input class="action-button button" value="Send My Application" type="submit">
-          </div>
-        </fieldset>
-      </form>
+            <div class="input-group">
+              <label>Last Name</label>
+              <input class="text-input text-input__form" placeholder="Onymous" type="text">
+            </div>
+
+            <div class="input-group">
+              <label>Cool Nickname</label>
+              <input class="text-input text-input__form" placeholder="Anonosaur" type="text">
+            </div>
+
+            <div class="input-group">
+              <label>Date of Birth</label>
+              <input class="text-input text-input__form" type="date">
+            </div>
+
+            <div class="input-group">
+              <label>Contact Telephone Number</label>
+              <input class="text-input text-input__form" placeholder="123456789" type="tel">
+            </div>
+
+          </fieldset>
+
+          <fieldset name="account-details">
+
+            <h3>Account Details</h3>
+
+            <div class="input-group">
+              <label>Email</label>
+              <input class="text-input text-input__form" placeholder="ann.onymous@coolmail.com" type="email">
+            </div>
+
+            <div class="input-group">
+              <label>Password</label>
+              <label class="helper-text">Minimum 10 Characters</label>
+              <input class="text-input text-input__form" type="password">
+            </div>
+
+            <div class="input-group">
+              <label>Verify Password</label>
+              <input class="text-input text-input__form" type="password">
+            </div>
+
+          </fieldset>
+
+          <fieldset name="logistics">
+
+            <h3>Logistics</h3>
+
+            <div class="input-group">
+
+              <label>What region do you live in?</label>
+
+              <select class="text-input text-input__form">
+                <option value="">Select:</option>
+
+                <option value="NorthernAmerica">Northern America</option>
+                <option value="MiddleAmerica">Middle America</option>
+                <option value="CentralAmerica">Central America</option>
+                <option value="Carribean">Carribean</option>
+
+                <option value="Northern SouthAmerica">Northern South America</option>
+                <option value="Western SouthAmerica">Western South America</option>
+                <option value="Eastern SouthAmerica">Eastern South America</option>
+                <option value="Southern SouthAmerica">Southern South America</option>
+
+                <option value="NorthernEurope">Northern Europe</option>
+                <option value="WesternEurope">Western Europe</option>
+                <option value="CentralEurope">Central Europe</option>
+                <option value="EasternEurope">Eastern Europe</option>
+                <option value="SouthernEurope">Southern Europe</option>
+                <option value="SouthEasternEurope">South Eastern Europe</option>
+
+                <option value="NorthernAfrica">Northern Africa</option>
+                <option value="WesternAfrica">Western Africa</option>
+                <option value="EasternAfrica">Eastern Africa</option>
+                <option value="CentralAfrica">Central Africa</option>
+                <option value="SouthernAfrica">Southern Africa</option>
+
+                <option value="NorthernAsia">Northern Asia</option>
+                <option value="Western Asia/MiddleEast">Western Asia/Middle East</option>
+                <option value="CentralAsia">Central Asia</option>
+                <option value="EasternAsia">Eastern Asia</option>
+                <option value="SouthernAsia">Southern Asia</option>
+                <option value="South EastAsia">South East Asia</option>
+
+                <option value="Oceania/Australasia/SouthPacific">Oceania/Australasia/South Pacific</option>
+
+              </select>
+
+            </div>
+
+            <div class="input-group">
+              <label>What time suits you for club meetings about dinosaurs?</label>
+              <input class="text-input text-input__form" value="00:00" type="time">
+            </div>
+
+          </fieldset>
+
+          <fieldset name="entry-test">
+
+            <h3>Dinoclub Entry Test</h3>
+
+            <div class="input-group">
+
+              <label>What was the largest Dinosaur?</label><br>
+
+              <div class="radio-options">
+
+                <label class="radio-option">
+                  <input type="radio" name="entry_question" value="incorrect" checked>
+                  Tyrannosaurus Rex
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="entry_question" value="incorrect">
+                  Stegosaurus
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="entry_question" value="correct">
+                  Brachiosaurus
+                </label>
+
+                <label class="radio-option">
+                  <input type="radio" name="entry_question" value="incorrect">
+                  Diplodocus
+                </label>
+
+              </div>
+
+            </div>
+
+            <div class="input-group">
+
+              <label>Tell us why you would be a great Dinoclub member:</label>
+              <label class="helper-text">Limit 1000 Characters</label>
+              <div class="textbox-wrapper">
+                <textarea maxlength="1000" placeholder="Write your message here:"></textarea>
+              </div>
+
+            </div>
+
+            <div class="input-group">
+              <label>What is your lucky number?</label>
+              <input class="text-input text-input__form" type="number">
+            </div>
+
+            <div class="input-group">
+              <label>Link to Your Website</label>
+              <input class="text-input text-input__form" type="url">
+            </div>
+
+            <div class="input-group">
+              <label>How cool do you think Dinosaurs are?</label>
+
+              <label class="range-options">
+                Totally drool
+                <input type="range">
+                Totally cool
+              </label>
+
+            </div>
+
+          </fieldset>
+
+          <fieldset name="agree-and-submit">
+
+            <h3>Agree and Apply</h3>
+
+            <div class="input-group">
+              <input type="checkbox">
+              <label>I agree to the Dinoclub's secret rules about secrets</label>
+            </div>
+
+            <div class="input-group">
+              <input class="alert-button button" id="pterodactyl" value="What's that in the sky?!" type="button">
+              <input class="action-button button" value="Send My Application" type="submit">
+            </div>
+
+          </fieldset>
+        </form>
+      </section>
     </section>
   </body>
 </html>

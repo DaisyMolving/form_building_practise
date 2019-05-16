@@ -1,58 +1,59 @@
-/* resets, variables, mixins, utility classes */
 html, body {
   background-image: url("../../app/assets/dinosaur-background.jpg");
   background-repeat: repeat;
-  margin: 0;
-  padding: 0;
+  color: #3F3F3F;
   font-family: helvetica;
-  color: #3f3f3f; }
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
 
-/* layout, such as container and grid systems */
+.text-input {
+  border: solid #3F3F3F 1px;
+  border-radius: 5px;
+  font-size: 0.875em;
+  height: 35px;
+  padding-left: 10px;
+  width: 200px; }
+
+.main {
+  display: grid;
+  grid-template-columns: 10% auto 10%; }
+
 .content {
-  padding: 20px; }
+  grid-column-start: 2; }
 
-.content-title {
-  background-color: #FFFFFF;
+.button {
+  border: solid #3F78FF 1px;
   border-radius: 5px;
-  font-size: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 1em;
+  margin: 15px 15px 0px 0px;
   padding: 10px;
-  text-align: center;
-  width: fit-content; }
+  width: 200px; }
 
-.content-subtitle {
+.alert-button {
   background-color: #FFFFFF;
-  border-radius: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  text-align: center;
-  width: fit-content; }
+  color: #3F78FF; }
 
-header {
-  background-color: #47644B;
-  color: #FFFFFF;
-  padding: 20px; }
+.action-button {
+  background-color: #3F78FF;
+  color: #FFFFFF; }
 
 fieldset {
   background-color: #FFFFFF;
   border: solid #47644B 2px;
   border-radius: 5px;
-  margin: 10px 50px 20px 50px;
-  padding: 0px 20px 10px 20px; }
+  margin: 40px 0;
+  padding: 10px 30px 20px 30px; }
 
-select {
-  background-color: #FFFFFF;
-  border: solid #3F3F3F 1px;
-  border-radius: 5px;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 210px; }
+.text-input__form {
+  display: block;
+  margin-top: 5px; }
 
 .radio-options {
   margin-top: 5px; }
+
+.radio-option {
+  display: block; }
 
 textarea {
   border: solid #3F3F3F 1px;
@@ -60,6 +61,7 @@ textarea {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  font-size: 0.875em;
   height: 250px;
   padding: 10px;
   width: 100%; }
@@ -70,33 +72,41 @@ textarea {
 .input-group {
   margin-bottom: 20px; }
 
-.text-input {
-  border: solid #3F3F3F 1px;
-  border-radius: 5px;
-  height: 35px;
-  margin-top: 5px;
-  padding-left: 10px;
-  width: 200px; }
-
 .helper-text {
   color: #979797;
-  font-size: 12px; }
+  display: block;
+  font-size: 0.875em;
+  margin: 5px 0; }
 
-.button {
-  border-radius: 5px;
-  font-size: 14px;
-  margin: 15px 15px 0px 0px;
-  padding: 10px;
-  width: 200px; }
+.range-options {
+  display: block; }
 
-.alert-button {
+header {
+  background-color: #47644B;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  padding: 10px 0; }
+
+.search {
+  grid-column-start: 2; }
+
+.text-input__search {
+  display: inline; }
+
+.content-title {
   background-color: #FFFFFF;
-  border: solid #3F78FF 1px;
-  color: #3F78FF; }
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  width: fit-content; }
 
-.action-button {
-  background-color: #3F78FF;
-  border: solid #3F78FF 1px;
-  color: #FFFFFF; }
+.content-title__heading {
+  font-size: 2.5em; }
+
+.content-title__subheading {
+  font-size: 1.75em; }
 
 /*# sourceMappingURL=main.css.map */

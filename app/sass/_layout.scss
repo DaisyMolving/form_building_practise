@@ -1,1 +1,8 @@
-/* layout, such as container and grid systems */
+.main {
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+}
+
+.content {
+  grid-column-start: 2;
+}

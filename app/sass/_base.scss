@@ -1,10 +1,18 @@
-/* resets, variables, mixins, utility classes */
-
 html, body {
   background-image: url("../../app/assets/dinosaur-background.jpg");
   background-repeat: repeat;
+  color: $near-black;
+  font-family: helvetica;
+  font-size: 16px;
   margin: 0;
   padding: 0;
-  font-family: helvetica;
-  color: #3f3f3f;
+}
+
+.text-input {
+  border: solid $near-black 1px;
+  border-radius: 5px;
+  font-size: 0.875em;
+  height: 35px;
+  padding-left: 10px;
+  width: 200px;
 }
