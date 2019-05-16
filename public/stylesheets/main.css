@@ -4,6 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: helvetica;
+  font-size: 16px;
   color: #3F3F3F; }
 
 header {
@@ -24,15 +25,15 @@ header {
   width: fit-content; }
 
 .content-title__heading {
-  font-size: 40px; }
+  font-size: 2.5em; }
 
 .content-title__subheading {
-  font-size: 28px; }
+  font-size: 1.75em; }
 
 .button {
   border: solid #3F78FF 1px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 1em;
   margin: 15px 15px 0px 0px;
   padding: 10px;
   width: 200px; }
@@ -70,6 +71,7 @@ textarea {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  font-size: 0.875em;
   height: 250px;
   padding: 10px;
   width: 100%; }
@@ -83,6 +85,7 @@ textarea {
 .text-input {
   border: solid #3F3F3F 1px;
   border-radius: 5px;
+  font-size: 0.875em;
   height: 35px;
   margin-top: 5px;
   padding-left: 10px;
@@ -90,6 +93,6 @@ textarea {
 
 .helper-text {
   color: #979797;
-  font-size: 12px; }
+  font-size: 0.875em; }
 
 /*# sourceMappingURL=main.css.map */
