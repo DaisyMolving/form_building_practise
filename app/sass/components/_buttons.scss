@@ -1,0 +1,18 @@
+.button {
+  border: solid $mid-blue 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 15px 15px 0px 0px;
+  padding: 10px;
+  width: 200px;
+}
+
+.alert-button {
+  background-color: $white;
+  color: $mid-blue;
+}
+
+.action-button {
+  background-color: $mid-blue;
+  color: $white;
+}

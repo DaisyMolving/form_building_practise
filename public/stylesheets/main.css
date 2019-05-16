@@ -97,4 +97,20 @@ textarea {
   border: solid #3F78FF 1px;
   color: #FFFFFF; }
 
+.button {
+  border: solid #3F78FF 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin: 15px 15px 0px 0px;
+  padding: 10px;
+  width: 200px; }
+
+.alert-button {
+  background-color: #FFFFFF;
+  color: #3F78FF; }
+
+.action-button {
+  background-color: #3F78FF;
+  color: #FFFFFF; }
+
 /*# sourceMappingURL=main.css.map */
